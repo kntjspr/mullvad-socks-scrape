@@ -14,6 +14,6 @@ print(extracted_texts_with_port)
 
 
 
-with open('result.txt', 'w') as file:
+with open('mullvad-socks5.txt', 'w') as file:
     for item in extracted_texts_with_port:
         file.write(f"{item}\n")
